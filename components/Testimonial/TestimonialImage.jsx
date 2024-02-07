@@ -1,7 +1,7 @@
 import React from "react"
 import {TestimonialContext} from "./Testimonial"
 import logoUrl from "../../images/logoExample.png"
-import pictureUrl from "../../images/pictureExample.png"
+import pictureUrl from "../../images/pictureExample.jpg"
 
 export default function TestimonialImage({children}){
     const {variant} = React.useContext(TestimonialContext)
